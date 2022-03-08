@@ -1,0 +1,19 @@
+cat [NAME] = Datei lesen
+touch [NAME] = Datei erstellen
+nano [NAME] = Datei beschreiben
+rm [NAME] = Datei löschen
+mv [NAME] [NAME_NEU] = Datei umbennenen
+
+map<path, structpointer> strukt weiter verwenden
+
+map find
+if(m.find(path) == m.end()){
+    //not found
+} else {
+    //found
+}
+
+map.first() = key
+map.second() = value
+
+docker run --privileged -it --rm -v "D:\lukas\Documents\GIT\Git_Semester_3\Betriebssysteme\Betriebssysteme://MyFS" -p127.0.0.1:2222:22 --name tag tag:2.0 bash
